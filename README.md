@@ -23,19 +23,17 @@ The platform operates on a principle of resource isolation. Storage and compute 
 </div>
 
 ## 🌟 Key Features
-
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 **🔬 Experiment Tracking**
 - Comprehensive metric and parameter logging
 - Interactive visualizations and comparisons
 - LLM tracing with full execution flow
-- Linked model snapshots for reproducibility
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 **📦 Model Registry**
 - Centralized model versioning
@@ -46,7 +44,7 @@ The platform operates on a principle of resource isolation. Storage and compute 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 **🚀 Flexible Deployments**
 - Direct-to-satellite inference
@@ -55,7 +53,7 @@ The platform operates on a principle of resource isolation. Storage and compute 
 - Zero-downtime updates
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 **🔒 Data Privacy First**
 - Client-side data transfers
