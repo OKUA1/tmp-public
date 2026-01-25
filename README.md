@@ -3,14 +3,16 @@
 <picture>
   <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-hero.png?raw=true" >
 </picture>
-
-<p align="center">
- <a href="https://app.luml.ai">App</a> •
-  <a href="#-key-features">Features</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="https://docs.luml.ai">Docs</a>
-</p>
 </div>
+<br>
+<div align="center">
+    <a href="https://luml.ai">Home Page</a> |
+    <a href="https://discord.com/invite/qVPPstSv9R">Discord</a> |
+    <a href="https://app.luml.ai">App</a> |
+    <a href="https://docs.luml.ai/getting-started">Documentation</a>
+</div>
+<br>
+
 
 LUML is a platform for managing the complete machine learning lifecycle, from initial experiments to production deployment. It provides experiment tracking, model registry, and deployment capabilities while maintaining separation between the control plane and the data and compute resources that teams bring to the platform.
 
