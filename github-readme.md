@@ -117,30 +117,26 @@ LUML uses a client-side data transfer model where file operations occur exclusiv
 
 ## 🧩 Modules
 
-### Registry
+<picture>
+  <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-registry-experiments.png?raw=true" >
+</picture>
 
 The Registry is the centralized repository for storage, versioning, and management of artifacts. While it supports any object type, its primary purpose is managing ML models throughout their lifecycle. It serves as the single source of truth for assets created in Notebooks, trained via Express Tasks, or imported from external sources.
 
 To ensure data integrity, the platform uses the native `.luml` format—a container that encapsulates model weights, metadata, preprocessing scripts, and supplementary files. The Registry organizes assets through Collections, which are logical containers that allow models to be grouped by project, task type, or semantics. Access to Collections is configured via Orbits.
 
-<picture>
-  <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-registry-experiments.png?raw=true" >
-</picture>
-
 #### Experiment Snapshots
 
 Experiment Snapshots provide structured logging and management of ML experiment runs. Each snapshot captures metrics, parameters, artifacts, and metadata for every run, allowing users to trace how results evolved over time and revisit past configurations. Interactive charts and comparison tables highlight performance trends and surface differences between configurations. Since each snapshot is intrinsically linked to the saved model file, users can revert to any previous version and re-run it to verify results.
 
-#### LLM Tracing
-
+<br>
 <picture>
-  <img src="" >
+  <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-evals-traces.png?raw=true" >
 </picture>
 
 LLM Tracing provides visibility into the execution flow of systems that use large language models. It records inputs, outputs, and metadata associated with each step of an LLM call. The module surfaces aggregated run summaries for quick comparison, complete interaction histories showing prompts, tool calls, and intermediate steps, and usage metrics such as latency, token consumption, and cost across runs.
 
-### Deployments
-
+<br>
 <picture>
   <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-deployments.png?raw=true" >
 </picture>
@@ -152,8 +148,7 @@ Execution happens entirely on the Satellite, not inside the platform. Inference 
 
 Deployments support secret injection to allow models to access external systems securely. Some secrets are injected as environment variables at creation time and remain static. Others can be configured as dynamic attributes, allowing the Satellite to retrieve updated values at invocation time without recreating the Deployment.
 
-### Express Tasks
-
+<br>
 <picture>
   <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-express-tasks.png?raw=true" >
 </picture>
@@ -165,8 +160,7 @@ For tabular modeling, the system handles classification and regression tasks.
 
 For prompt optimization, a visual no-code environment allows users to build LLM workflows as flowcharts. The module supports free-form optimization based on pipeline structure and task description, as well as data-driven optimization that tunes prompts using quality metrics like Exact Match or LLM-as-a-judge evaluation.
 
-### Notebooks
-
+<br>
 <picture>
   <img src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-notebooks.png?raw=true" >
 </picture>
