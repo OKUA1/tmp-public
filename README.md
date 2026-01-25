@@ -7,7 +7,7 @@
 <p align="center">
  <a href="https://app.luml.ai">App</a> •
   <a href="#-key-features">Features</a> •
-  <a href="#-quick-start">Quick Start</a> •
+  <!-- <a href="#-quick-start">Quick Start</a> • -->
   <a href="https://docs.luml.ai">Docs</a>
 </p>
 </div>
