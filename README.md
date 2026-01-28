@@ -128,7 +128,6 @@ When a Satellite comes online, it announces its capabilities to the platform. Ex
 
 ---
 
-<br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-buckets-light.png?raw=true" >
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-buckets-dark.png?raw=true">
@@ -159,7 +158,6 @@ Experiment Snapshots provide structured logging and management of ML experiment 
 
 ---
 
-<br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-evals-light.png?raw=true" >
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-evals-dark.png?raw=true">
@@ -171,8 +169,6 @@ Experiment Snapshots provide structured logging and management of ML experiment 
 LLM Tracing provides visibility into the execution flow of systems that use large language models. It records inputs, outputs, and metadata associated with each step of an LLM call. The module surfaces aggregated run summaries for quick comparison, complete interaction histories showing prompts, tool calls, and intermediate steps, and usage metrics such as latency, token consumption, and cost across runs.
 
 ---
-
-<br>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-deployments-light.png?raw=true" >
@@ -189,7 +185,6 @@ Deployments support secret injection to allow models to access external systems 
 
 ---
 
-<br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-express-tasks-light.png?raw=true" >
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-express-tasks-dark.png?raw=true">
@@ -206,7 +201,6 @@ For prompt optimization, a visual no-code environment allows users to build LLM 
 
 ---
 
-<br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-notebooks-light.png?raw=true" >
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-notebooks-dark.png?raw=true">
