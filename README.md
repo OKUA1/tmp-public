@@ -156,6 +156,7 @@ To ensure data integrity, the platform uses the native `.luml` format—a contai
 
 Experiment Snapshots provide structured logging and management of ML experiment runs. Each snapshot captures metrics, parameters, artifacts, and metadata for every run, allowing users to trace how results evolved over time and revisit past configurations. Interactive charts and comparison tables highlight performance trends and surface differences between configurations. Since each snapshot is intrinsically linked to the saved model file, users can revert to any previous version and re-run it to verify results.
 
+---
 <br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-evals-light.png?raw=true" >
@@ -167,6 +168,7 @@ Experiment Snapshots provide structured logging and management of ML experiment 
 
 LLM Tracing provides visibility into the execution flow of systems that use large language models. It records inputs, outputs, and metadata associated with each step of an LLM call. The module surfaces aggregated run summaries for quick comparison, complete interaction histories showing prompts, tool calls, and intermediate steps, and usage metrics such as latency, token consumption, and cost across runs.
 
+---
 <br>
 
 <picture>
@@ -182,6 +184,7 @@ Execution happens entirely on the Satellite, not inside the platform. Inference 
 
 Deployments support secret injection to allow models to access external systems securely. Some secrets are injected as environment variables at creation time and remain static. Others can be configured as dynamic attributes, allowing the Satellite to retrieve updated values at invocation time without recreating the Deployment.
 
+---
 <br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-express-tasks-light.png?raw=true" >
@@ -197,6 +200,7 @@ For tabular modeling, the system handles classification and regression tasks.
 
 For prompt optimization, a visual no-code environment allows users to build LLM workflows as flowcharts. The module supports free-form optimization based on pipeline structure and task description, as well as data-driven optimization that tunes prompts using quality metrics like Exact Match or LLM-as-a-judge evaluation.
 
+---
 <br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-notebooks-light.png?raw=true" >
