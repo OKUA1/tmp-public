@@ -30,7 +30,8 @@ The platform operates on a principle of resource isolation. Storage and compute 
 
 </div>
 
-<p align="center"><big><b>─────────────────── ✨ Key Features ───────────────────</b></big></p>
+<br>
+<h3 align="center">──────── ✨ Key Features ────────</h3>
 
 <table>
 <tr>
@@ -74,7 +75,8 @@ The platform operates on a principle of resource isolation. Storage and compute 
 </tr>
 </table>
 
-<p align="center"><big><b>─────────────────── 🏗️ Core Concepts ───────────────────</b></big></p>
+<br>
+<h3 align="center">──────── 🏗️ Core Concepts ────────</h3>
 
 The platform structures work around four foundational concepts that determine how resources are organized, how projects are isolated, and how models progress from development to production.
 
@@ -93,6 +95,8 @@ An Organization is the primary logical boundary within LUML. It serves as the ro
 
 Once created, Organizations support user invitations with assigned permissions, project workspaces (Orbits), and attached storage (Buckets) that function as shared backends for those projects. Users access data through their assigned Orbits, while storage configuration remains centralized at the Organization level.
 
+---
+
 ### 🌍 Orbits
 
 An Orbit is a project workspace within an Organization that brings work together without owning the underlying resources. The name reflects its operational model: the Orbit functions as the center of a project while data storage and compute resources remain external and are linked as needed.
@@ -106,9 +110,7 @@ An Orbit is a project workspace within an Organization that brings work together
 
 Each Orbit maintains its own artifact collections, connected compute nodes, secrets, and deployments, providing isolation between projects and teams within the same Organization.
 
-### 🛰️ Satellites
-
-A Satellite is an externally hosted compute node connected to LUML through a pairing key. Once paired, it becomes the execution engine for an Orbit, handling workloads while configuration, artifacts, and coordination remain in the platform.
+---
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-satellites-light.png?raw=true" >
@@ -116,24 +118,26 @@ A Satellite is an externally hosted compute node connected to LUML through a pai
   <img alt="Image" src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-satellites-light.png?raw=true">
 </picture>
 
+A Satellite is an externally hosted compute node connected to LUML through a pairing key. Once paired, it becomes the execution engine for an Orbit, handling workloads while configuration, artifacts, and coordination remain in the platform.
 
 When a Satellite comes online, it announces its capabilities to the platform. Execution follows a task queue model: the platform places work items in a queue, and the Satellite polls for new tasks, retrieves them, and runs them in its own environment. This pull-based approach keeps the Satellite under user control within their own infrastructure and security perimeter, while LUML orchestrates and monitors execution.
 
 *Note: inference requests are sent directly to the Satellite, not through the LUML platform. The Satellite validates API keys with the backend through a cached authorization mechanism, ensuring that inference traffic and data never pass through the platform.*
 
-### 🪣 Buckets
-
-A Bucket is an integrated cloud storage solution that retains user assets, including trained models and associated artifacts. Buckets connect at the Organization level, creating a unified data space for teams.
-
+---
+<br>
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-buckets-light.png?raw=true" >
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-buckets-dark.png?raw=true">
   <img alt="Image" src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-buckets-light.png?raw=true">
 </picture>
 
+A Bucket is an integrated cloud storage solution that retains user assets, including trained models and associated artifacts. Buckets connect at the Organization level, creating a unified data space for teams.
+
 LUML uses a client-side data transfer model where file operations occur exclusively between the user's computer and the cloud storage provider. The platform's servers do not act as intermediaries during upload or download operations, and do not cache or read file contents. Users interact with storage directly, using the platform's interface as a control panel while maintaining full autonomy over resource management and security.
 
-<p align="center"><big><b>─────────────────── 🧩 Modules ───────────────────</b></big></p>
+<br>
+<h3 align="center">──────── 🧩 Modules ────────</h3>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-orbits-light.png?raw=true" >
