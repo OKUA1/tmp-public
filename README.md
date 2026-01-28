@@ -33,7 +33,8 @@ The platform operates on a principle of resource isolation. Storage and compute 
 <br>
 <h3 align="center">──────── ✨ Key Features ────────</h3>
 
-<table width="100%">
+<div align="center">
+<table>
 <tr>
 <td width="50%" valign="top">
 
@@ -74,6 +75,7 @@ The platform operates on a principle of resource isolation. Storage and compute 
 </td>
 </tr>
 </table>
+</div>
 
 <br>
 <h3 align="center">──────── 🏗️ Core Concepts ────────</h3>
