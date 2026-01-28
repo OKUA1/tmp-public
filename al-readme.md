@@ -63,3 +63,13 @@ If you manage multiple lockfiles, create an alias and target it via `--lockfile`
 al alias add work /path/to/AGENTS.lock
 al --lockfile work sync
 ```
+
+## Related Projects
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-hero-light.png?raw=true" >
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-hero-dark.png?raw=true">
+  <img alt="Image" src="https://github.com/Dataforce-Solutions/static_assets/blob/main/luml-hero-light.png?raw=true">
+</picture>
+
+👉 Check out the repo: [github.com/luml-ai/luml](https://github.com/luml-ai/luml)
